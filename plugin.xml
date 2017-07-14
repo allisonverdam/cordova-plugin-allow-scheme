@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  id="cordova-plugin-allow-scheme" version="0.0.1">
+    <name>cordova-plugin-allow-scheme</name>
+    <description>Plugin to add schemes for ios</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, scheme, allow, ionic, ios</keywords>
+
+    <description>Plugin to add schemes for ios</description>
+    <repo>https://github.com/borntoplay189/cordova-plugin-allow-scheme</repo>
+    <issue>https://github.com/borntoplay189/cordova-plugin-allow-scheme/issues</issue>
+
+    <js-module src="www/allow-scheme.js" name="cordova-plugin-allow-scheme">
+      <clobbers target="cordova-plugin-allow-scheme" />
+    </js-module>
+
+    <platform name="ios">
+      <preference name="SCHEME_NAME" />
+      
+      <info>
+      In order to run this plugin, you need to set the name of scheme.
+      </info>
+
+      <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+        <array>
+          <string>$SCHEME_NAME</string>
+        </array>
+      </config-file>
+    </platform>        
+</plugin>

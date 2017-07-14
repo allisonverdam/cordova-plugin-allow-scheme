@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-allow-scheme",
+  "version": "0.0.1",
+  "description": "Plugin to add schemes for ios",
+  "cordova": {
+    "id": "cordova-plugin-allow-scheme",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borntoplay189/cordova-plugin-allow-scheme.git"
+  },
+  "keywords": [
+    "cordova",
+    "scheme",
+    "allow",
+    "ionic",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Allison Verdam da Cunha",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/borntoplay189/cordova-plugin-allow-scheme/issues"
+  },
+  "homepage": "https://github.com/borntoplay189/cordova-plugin-allow-scheme#readme"
+}
