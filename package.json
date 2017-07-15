@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-allow-scheme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin to add schemes for ios",
   "cordova": {
     "id": "cordova-plugin-allow-scheme",
